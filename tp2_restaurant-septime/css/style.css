@@ -52,7 +52,21 @@ section{
 }
 .plat{
     width:100%;
+    position: relative;
+
 }
+a:hover{
+    font-size:30px;
+    font-weight:700;
+    text-transform:uppercase
+}
+hr{
+    position: absolute;
+    width:800px;
+    top:25%;
+    right:0;
+}
+
 /* @import url("https://fonts.googleapis.com/css?family=Cormorant+Garamond:300,300i,400,400i,500,500i,700");
 body{
    font-family: Cormorant Garamond;
