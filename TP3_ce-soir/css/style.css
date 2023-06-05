@@ -1,4 +1,4 @@
-*{
+/* *{
     box-sizing: border-box;
 }
 header{
@@ -11,7 +11,7 @@ img{
     width:100%;
 }
 /* pour initialiser toutes les  balises sut tous les nagigateurs */
-html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre,a, abbr, acronym, address, big, cite, code,del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var,b, u, i, center,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr, th, td,article, aside, canvas, details, embed, figure,figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,time, mark, audio, video {
+/* html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre,a, abbr, acronym, address, big, cite, code,del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var,b, u, i, center,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr, th, td,article, aside, canvas, details, embed, figure,figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,time, mark, audio, video {
     margin: 0;
     padding: 0;
     border: 0;
@@ -33,9 +33,9 @@ body{
 }
 .asperge{
 /* transform: scaleX(-1); on peut utiliser aussi scaleX avec valeur -1 pour ne pas augmenter la taille et juste changer le sens de l'image*/
-transform:scaleX(-1);
-}
-section{
+/* transform:scaleX(-1); */
+/* } */
+/* section{
     display:flex;
     justify-content: space-between;
     align-items: center;
@@ -61,4 +61,57 @@ h1,h2{
 }
 img{
     width:100%;
+} */ 
+.arrowdown{
+    border: solid rgb(194, 48, 72);
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding:3px;
+    width:50px;
+    height: 50px;
+}
+ul{
+    display: flex;
+
+    list-style-type:none;
+    /* pour retirer les puce */
+
+}
+a{
+    text-decoration: none; 
+    /* pour retirer les surlignement */
+    color: black;
+
+}
+li{
+
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+.navigation{
+    display: flex;
+    justify-content: space-between;
+}
+body{
+    font-family: 'Caveat brush',cursive;
+}
+header{
+    background-image: url(../consignes/MicrosoftTeams-image\ \(1\).png);
+    height: 600px;
+}
+.cerf{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding-top: 100px;
+}
+.relative{
+    position: relative;
+}
+hr{
+    width: 30px;
+    height: 15px;
+    background-color: #e53f6f;
 }
