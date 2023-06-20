@@ -1,0 +1,219 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+}
+* {
+  box-sizing: border-box;
+}
+img {
+}
+
+body {
+  width: 80%;
+  color: white;
+  background-color: black;
+  margin: auto;
+ font-family: "Poppins", sans-serif;
+}
+.container{
+    width: 1440px;
+    margin: auto;
+}
+main {
+ 
+}
+.orange {
+  border: solid 1px orange;
+}
+ul,
+li,
+a {
+  list-style-type: none;
+  text-decoration: none;
+  color: white;
+  display: flex;
+  justify-content: flex-end;
+  margin-left: 10px;
+  margin-right: 10px;
+  
+}
+
+nav {
+  /* display: flex;
+    justify-content: space-between; */
+}
+ul {
+  /* display: flex;
+    margin-top: 20px;
+    margin-right: 20px;
+    height: 40px;
+    line-height: 40px;
+    padding-left: 50px; */
+}
+
+header {
+  height: 700px;
+  background-repeat: no-repeat;
+  margin: auto;
+  text-align: center;
+  background-image: url("../img/eggs.jpg");
+  background-size: 100%;
+ 
+ 
+}
+header h1, header h2 , header h3 {
+    margin: 70px 0;
+}
+
+h1 {
+  font-size: 80px;
+  font-family: "Poppins", sans-serif;
+}
+h2 {
+  font-size: 45px;
+  color: orange;
+  font-family: "Dancing Script", cursive;
+}
+h3 {
+  font-family: "Poppins", sans-serif;
+  font-size: 25px;
+  opacity: 0.5;
+}
+.burger {
+
+}
+.burgerimg {
+  width: 50%;
+}
+section {
+  width: 100%;
+}
+
+.burgir {
+    display: flex;
+    justify-content: space-between;
+   
+  
+}
+.sect1{
+    width: 1000px;
+    margin: 0 auto;
+}
+.taste{
+    display: flex;
+}
+.menu{
+    text-align: center;
+}
+.sect2{
+    width: 900px;
+    margin: auto
+}
+.porc{
+    /* margin:0 auto; */
+    display: flex;
+    justify-content: space-evenly;
+    opacity: 0.7;
+      font-family: "Poppins", sans-serif;
+}
+.section3{
+    width: 1250px;
+    flex-wrap:wrap;
+
+}
+.amazing{
+    display: flex;
+}
+/* .poisson{
+    display: flex;
+/* } */
+
+.logo{
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+  margin: auto;
+  opacity: 0.7;
+}

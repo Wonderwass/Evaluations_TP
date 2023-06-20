@@ -1,0 +1,240 @@
+body {
+  background-image: url(../img/fond.png);
+}
+
+.container {
+  width: 1400px;
+  margin: auto;
+  background-color: white;
+  box-shadow: 0px 0px 10px 5px gray;
+}
+
+/* hdr */
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 0;
+}
+
+header h1 {
+  margin: 0;
+}
+
+.hdr2 h2 {
+  color: rgb(103, 220, 255);
+}
+
+.hdr2 {
+  position: relative;
+}
+
+.hdr2 p {
+  position: absolute;
+  color: rgb(103, 220, 255);
+}
+
+header p {
+  margin: 0;
+  color: rgb(224, 36, 168);
+  top: 70px;
+  right: 50px;
+}
+
+/* hdr1 */
+
+.hdr1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logotransition {
+  padding: 10px;
+}
+
+.logotransition img {
+  transition: ease-out 3s;
+}
+
+.logotransition img:hover {
+  transform: rotate(360deg);
+}
+
+.hdr4 {
+  color: white;
+}
+
+.hdr4a {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(103, 220, 255);
+  margin-top: 5px;
+}
+
+.hdr4b {
+  background-color: rgb(103, 220, 255);
+}
+
+/* NAV/ul */
+
+nav {
+  background-color: rgb(103, 220, 255);
+}
+
+/* .menu {
+  height: 100%;
+  background-color: rgb(224, 36, 168);
+  margin-right: 0px;
+  text-align: center;
+} */
+
+ul {
+  display: flex;
+  justify-content: space-between;
+  /* text-decoration: none; */
+  list-style-type: none;
+  align-items: center;
+  text-align: center;
+  height: 100%;
+  /* padding: 0 50px; */
+}
+
+ul li {
+  padding: 6px 40px;
+  flex: auto;
+}
+
+ul li.menu {
+  background-color: rgb(224, 36, 168);
+}
+
+ul li:hover {
+  background-color: rgb(224, 36, 168);
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  height: 100%;
+}
+
+nav a:hover {
+}
+
+nav {
+  height: 30px;
+}
+
+/* main */
+
+.section1 img {
+  width: 100%;
+}
+
+.section2 {
+  display: flex;
+  /* justify-content: space-between; */
+}
+
+.section2a {
+  width: 20%;
+  margin-left: 15px;
+  border-right: solid 2px rgb(222, 222, 222);
+}
+
+/* ....H3...... */
+
+h3 {
+  color: rgb(103, 220, 255);
+}
+
+.section2b {
+  width: 60%;
+  border-right: solid 2px rgb(222, 222, 222);
+  margin-right: 50px;
+  margin-left: 20px;
+}
+
+.section2c {
+  width: 20%;
+}
+
+.camion,
+.echange {
+  display: flex;
+  align-items: center;
+}
+
+.camion p,
+.echange p {
+  margin-left: 15px;
+}
+
+/* section3 */
+
+.voir {
+  color: rgb(103, 220, 255);
+}
+
+.voir p {
+  text-align: end;
+  padding-right: 20px;
+}
+
+.section3 {
+  display: flex;
+  justify-content: space-around;
+}
+
+.section3a {
+  width: 30%;
+  box-shadow: 0px 0px 10px 5px gray;
+}
+
+.section3aa {
+  text-align: center;
+  background-color: gray;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.section3ab {
+  display: flex;
+}
+
+.robe {
+  margin: 10px;
+}
+
+/* footer */
+
+footer {
+  background-color: rgb(103, 220, 255);
+  height: 40px;
+}
+
+.ulftr {
+  height: 100%;
+  margin: 0 20px 0 20px;
+  justify-content: center;
+  padding: 0;
+}
+
+.ulftr li {
+  padding: 10px 0;
+  flex: auto;
+}
+
+.ulftr li:hover {
+  background-color: transparent;
+}
+
+footer a {
+  text-decoration: none;
+  color: white;
+}

@@ -1,0 +1,104 @@
+
+body{
+    width: 55%;
+    margin: auto;
+    padding: 0%;
+}
+
+header p{
+color: #67dcff;
+margin: auto;
+translate: 200px;
+
+}
+header{
+ height: 100px;
+    background-color: #d9d9d9 ;
+}
+h3{
+    color: #67dcff;
+
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    align-items: center;
+   
+
+}
+ul>li{
+    
+    list-style-type: none ;
+    margin: auto;
+    align-items: center;
+ 
+    
+    
+}
+nav{
+    height: 50px;
+    background-color: #67dcff;
+    align-items: center;
+    padding:3px;
+  
+
+   
+  
+   
+}
+ul{
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+
+    
+}
+h1{
+    font-size: 40px;
+    translate: 60px;
+}
+.pink{
+    color:#e024a8 ;
+    font-size: 20px;
+    translate: 60px -30px;
+    
+}
+.Narcis{
+    translate: 450px -135px;
+    font-size: 40px;
+}
+
+.numero{
+    font-size: 20px;
+    translate: 350px -62px;
+
+}
+header img{
+    translate: 300px -35px;
+}
+/* .contenuheader{
+    display: flex;
+    justify-content: space-around;
+} */
+.panier{
+    background-color: #67dcff;
+    height: 100px;
+    width: 300px;
+}
+.image{
+    width: 100%;
+}
+.imgnum{
+    translate: 155px -140px;
+}
+.pinknav{
+    background-color: #e024a8;
+}
+.section1a{
+    display: flex;
+    
+}
+.section2b{
+    width:60%;
+
+}
