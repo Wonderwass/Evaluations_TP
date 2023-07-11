@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Eval Java</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+  </head>
+  <body>
+    <header id="banner">
+      <h1>Bienvenue à bord</h1>
+      <h3>Location de voiture 24h/24 et 7j/7</h3>
+      <div class="form">
+        <form>
+          <select id="adresse">
+            <option value="" class="adresse">Adresse de départ</option>
+          </select>
+          <select id="début">
+            <option value="">Début de location</option>
+          </select>
+          <select id="finLoc">
+            <option value="">Fin de location</option>
+          </select>
+        </form>
+        <button id="recherche">Voir ma recherche</button>
+      </div>
+    </header>
+    <div class="result">
+      <p>7 resultats</p>
+      <button id="prix">Prix croissant</button>
+    </div>
+    <div class="container">
+      <section>
+        <div class="catalogue">
+         
+          <div class="img_voiture"><img src="img/vehicule1.png" alt="" /></div>
+        
+          <div>
+            <h2>Peugeot 208</h2>
+            <p class="media">
+              Diesl, 5 portes GPS,Auto radio,Forfait 1000km(0,5/km
+              supplémentaire),</p>
+              <p class="media">999€-Agence de paris</p> 
+            
+            <button>Reserver et payer</button>
+          </div>
+        </div>
+      </section>
+      <hr />
+      <section>
+        <div class="catalogue">
+          <div class="img_voiture"><img src="img/vehicule2.png" alt="" /></div>
+          <div>
+            <h2>Ford Focus</h2>
+            <p class="media">
+              Diesl, 5 portes GPS,Auto radio,Forfait 1000km(0,5/km
+              supplémentaire),</p>
+               <p class="media">999€-Agence de paris</p>
+            
+            <button>Reserver et Payer</button>
+          </div>
+        </div>
+      </section>
+      <hr />
+      <section>
+        <div class="catalogue">
+          <div class="img_voiture"><img src="img/vehicule3.png" alt="" /></div>
+          <div>
+            <h2>Audi A1</h2>
+            <p class="media">
+              Diesl, 5 portes GPS,Auto radio,Forfait 1000km(0,5/km
+              supplémentaire), </p> 
+              <p class="media"> 999€-Agence de paris</p>
+           
+            <button>Reserver et payer</button>
+          </div>
+        </div>
+      </section>
+      <hr />
+      <section>
+        <div class="catalogue">
+          <div class="img_voiture"><img src="img/vehicule4.png" alt="" /></div>
+          <div>
+            <h2>Opel Mokka</h2>
+            <p class="media">
+              Diesel, 5 portes GPS,Auto radio,Forfait 1000km(0,5/km
+              supplémentaire),<br> <br/>999€-Agence de paris
+            </p>
+            <button>Reserver et payer</button>
+          </div>
+        </div>
+      </section>
+      <hr />
+    </div>
+    <footer>
+      <div class="foot">
+        <div><img src="./img/agence.jpg" alt="" id="agence" /></div>
+        <div>
+          <h4>Notre Agence de Paris</h4>
+          <p>
+            300 boulevard de vaugirard 75015, Paris <br />Ouvert7j/7 de 09h à
+            13h et 14h à 20h <br />
+            07 49 78 21 33 <br />
+            contact@vtc.com
+          </p>
+        </div>
+      </div>
+    </footer>
+    <script src="js/eval.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.0/dist/jquery.min.js"></script>
+  </body>
+</html>
